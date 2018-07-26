@@ -1,0 +1,72 @@
+@media screen and (max-width: 768px){
+    img{
+    max-width: 100%;
+    height: auto;
+    width /***/:auto;　
+    }
+    #container{
+    width:100%;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    }
+
+    li {
+        list-style: none;
+
+    }
+
+    .header {
+        font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+        background-color:forestgreen;
+        color:antiquewhite;
+        height: 90px;
+    }
+
+    .header-logo {
+        font-size:36px;
+        float: left;
+        padding: 20px 40px;
+    }
+
+    .header-list {
+        float: left;
+
+    }
+
+    .header-list li {
+        float: left;
+        float:left;
+        padding: 33px 20px;
+    }
+
+    .main {
+        background-color: beige;
+        height: 600px;
+        background-image: url(1.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center
+    }
+
+    .footer {
+        background-color: forestgreen;
+        color:antiquewhite;
+        height: 120px;
+        padding: 40px;
+    }
+
+    .footer-log {
+        font-size:36px;
+        float: left;
+    }
+
+    .footer-list {
+        float: right;
+    }
+
+    .footer-list li {
+        padding-bottom: 20px;   
+    }
+}
